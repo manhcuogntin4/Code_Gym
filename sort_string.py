@@ -47,3 +47,9 @@ for i in s:
         a.append((i,d[i]))
 d=sort_array(a)
 print_array(d)
+
+
+'''
+myList = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1357902468"
+print(*sorted(input(), key=lambda x: myList.index(x)), sep ="")
+'''
