@@ -1,7 +1,7 @@
 import re
 def fun(s):
     # return True if s is a valid email, else return False
-    pattern=r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]{3}$)"
+    pattern=r"(^[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]{1,3}$)"
     if re.match(pattern, s):
         return True
     else:
